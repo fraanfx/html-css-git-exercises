@@ -1,1 +1,13 @@
 /* Add your CSS code below */
+#first-message {
+  background-color: red;
+}
+.messages > article {
+  background-color: cadetblue;
+}
+/*[class^=message_]{
+    background-color: pink;
+}*/
+.message--latest {
+  background-color: yellow;
+}
