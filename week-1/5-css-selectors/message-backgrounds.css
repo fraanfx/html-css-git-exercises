@@ -5,9 +5,7 @@
 .messages > article {
   background-color: cadetblue;
 }
-/*[class^=message_]{
-    background-color: pink;
-}*/
+
 .message--latest {
   background-color: yellow;
 }

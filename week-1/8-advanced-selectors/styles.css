@@ -1,1 +1,15 @@
 /* Try different box model properties below */
+[class^="site-header"] {
+  background-color: lightgreen;
+}
+[class^="site-header"] > p {
+  color: #fff;
+  margin-bottom: -5px;
+}
+.site-wrapper > div > p:last-of-type {
+  font-size: 12px;
+  text-align: center;
+}
+.message:last-child {
+  box-shadow: 4px 4px 0 #dba944;
+}
