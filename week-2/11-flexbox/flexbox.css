@@ -1,1 +1,18 @@
 /* Add your own CSS code below */
+ul {
+  display: flex;
+}
+[class*="-first"] {
+  flex-direction: row;
+}
+
+[class*="-second"] {
+  flex-direction: column;
+}
+
+[class*="-third"] {
+  flex-flow: column nowrap;
+}
+ul > li {
+  list-style: none;
+}

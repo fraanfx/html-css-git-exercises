@@ -1,6 +1,39 @@
+* {
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-family: monospace;
+  background-color: gainsboro;
+  margin: 0 auto;
+  border: 1px solid red;
+  text-decoration: none;
+  list-style: none;
+}
+
 /* Try different box model properties below */
+.countries {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  width: 40%;
+  max-width: 500px;
+  justify-items: center;
+  align-items: center;
+}
+.country {
+  list-style: none;
+  margin: 10px 0;
+  padding: 12px 6px;
+  color: #fff;
+  background-color: cadetblue;
+  border: 2px solid blue;
+}
+
 .pages__page {
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+}
+.pages__page a {
+  text-decoration: none;
 }
